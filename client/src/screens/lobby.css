@@ -1,0 +1,70 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Lobby screen container */
+  .lobby-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .lobby-container h1 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size:x-large;
+  }
+  
+  .lobby-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .lobby-container label {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .lobby-container input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .lobby-container button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .lobby-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  
